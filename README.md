@@ -119,7 +119,7 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 **Ahsan Fayyaz**
 
-- 💼 LinkedIn: [Connect with me on LinkedIn](https://www.linkedin.com/in/ahsan-fayyaz/)
+- 💼 LinkedIn: [Connect with me on LinkedIn](https://www.linkedin.com/in/ahsan-fayyaz-a0a3a429a)
 
 ---
 
