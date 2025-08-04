@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Setup Form -->
+        <div class="setup-form">
+            <h1>⏱️ Stopwatch Setup</h1>
+            <div class="form-group">
+                <label for="userName">Your Name:</label>
+                <input type="text" id="userName" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="taskName">Task Name:</label>
+                <input type="text" id="taskName" placeholder="Enter task description" required>
+            </div>
+            <button id="setupBtn" class="setup-btn">Start Timing Session</button>
+        </div>
+
+        <!-- Stopwatch Interface -->
+        <div class="stopwatch">
+            <div class="user-info">
+                <h3 id="userDisplay"></h3>
+                <p id="taskDisplay"></p>
+            </div>
+            
+            <div class="display" id="display">00:00:00.00</div>
+            
+            <div class="controls">
+                <button id="start" class="start-btn">Start</button>
+                <button id="stop" class="stop-btn" disabled>Stop</button>
+                <button id="reset" class="reset-btn" disabled>Reset</button>
+                <button id="lap" class="lap-btn" disabled>Lap</button>
+            </div>
+            
+            <div id="laps">
+                <h3>Lap Times</h3>
+                <ul id="lapList"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <footer style="text-align:center; margin-top:30px; font-size:1rem; color:#555;">
+        &copy; Ahsan Fayyaz. All rights reserved.
+    </footer>
+</body>
+</html>
